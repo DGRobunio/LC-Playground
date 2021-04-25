@@ -7,6 +7,7 @@ int main() {
 
 //    set<string> a;
     cout << "Hello World!" << endl;
+    cout << INT_MAX << endl;
 //    uint32_t n = 12, m = 2;
 //    auto result = n&m;
 //    cout << result << endl;
