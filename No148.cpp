@@ -59,7 +59,7 @@ private:
         ListNode* dummyHead = new ListNode();
         auto p = dummyHead;
         while(left && right) {
-            if (left->val > right->val) {
+            if (left->val < right->val) {
                 p->next = left;
                 p = left;
                 left = left->next;
