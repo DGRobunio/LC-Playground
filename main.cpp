@@ -10,7 +10,7 @@ int main() {
     cout << INT_MAX << endl;
     int head = 1;
     head <<= 2;
-    cout << head << endl;
+    cout << (1 ^ 0) << endl;
 
 //    uint32_t n = 12, m = 2;
 //    auto result = n&m;
